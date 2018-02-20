@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">50MIN</string>
+        <string-array name="spn_arr">
+            <item> string1 </item>
+            <item> string2 </item>
+            <item> string3 </item>
+            <item> string4 </item>
+            <item> string5 </item>
+        </string-array>
+</resources>
+

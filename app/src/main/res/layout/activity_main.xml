@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blank">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:layout_marginTop="15dp"
+        android:id="@+id/tv_menu_main"
+        android:src="@drawable/item_menu_text"
+        android:background="@drawable/blank"
+        android:layout_gravity="bottom"/>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:background="@drawable/blank"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/blank"
+            android:layout_weight="5" />
+
+        <ImageView
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ss0"
+            android:background="@drawable/blank"
+            android:id="@+id/iv_main_year0" />
+
+        <ImageView
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ss0"
+            android:background="@drawable/blank"
+            android:id="@+id/iv_main_year1" />
+
+        <ImageView
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ss0"
+            android:background="@drawable/blank"
+            android:id="@+id/iv_main_year2" />
+
+        <ImageView
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ss0"
+            android:background="@drawable/blank"
+            android:id="@+id/iv_main_year3" />
+
+        <ImageView
+            android:layout_weight="5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ssline"
+            android:background="@drawable/blank"
+            android:id="@+id/iv_main_split0" />
+
+        <ImageView
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ss0"
+            android:background="@drawable/blank"
+            android:id="@+id/iv_main_month0" />
+
+        <ImageView
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ss0"
+            android:background="@drawable/blank"
+            android:id="@+id/iv_main_month1" />
+
+        <ImageView
+            android:layout_weight="5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ssline"
+            android:background="@drawable/blank"
+            android:id="@+id/iv_main_split1" />
+
+        <ImageView
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ss0"
+            android:background="@drawable/blank"
+            android:id="@+id/iv_main_day0" />
+
+        <ImageView
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ss0"
+            android:background="@drawable/blank"
+            android:id="@+id/iv_main_day1"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/blank"
+            android:layout_weight="5" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="3dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_weight="12"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_weight="80"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id = "@+id/tv_main_name"
+            android:text="NOTITLE"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="21sp"
+            android:background="@drawable/blank" />
+
+        <ImageButton
+            android:layout_weight="20"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/set_new"
+            android:background="@drawable/blank"
+            android:layout_marginRight="10dp"
+            android:id="@+id/btn_main_new" />
+
+        <ImageButton
+            android:layout_weight="20"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/set_load"
+            android:background="@drawable/blank"
+            android:layout_marginRight="10dp"
+            android:id="@+id/btn_main_load" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:src="@drawable/ssline_long"
+        android:background="@drawable/blank"
+        android:layout_marginBottom="2dp"/>
+
+    <ListView
+        android:layout_weight="100"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:id="@+id/lv_item_menu"
+        android:background="@drawable/worksheet_not_exist"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

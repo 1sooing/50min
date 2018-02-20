@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/blank">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:src="@drawable/iv_newsheet"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/et_new_sheet"
+            android:hint="Title Here"/>
+
+        <ImageView
+            android:layout_width="1000dp"
+            android:layout_height="5dp"
+            android:src="@drawable/ssline_long"
+            android:layout_gravity="center"
+            android:background="@drawable/blank"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="15"
+            android:background="@drawable/blank"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:id="@+id/ib_newsheet_item0"
+                android:src="@drawable/ib_newsheet_menu0"
+                android:background="@drawable/blank"
+                android:layout_gravity="left"/>
+
+            <ImageView
+                android:layout_width="1000dp"
+                android:layout_height="2dp"
+                android:src="@drawable/ssline_long"
+                android:layout_gravity="center"
+                android:background="@drawable/blank"
+                />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:id="@+id/ib_newsheet_item1"
+                android:src="@drawable/ib_newsheet_menu1"
+                android:background="@drawable/blank"
+                android:layout_gravity="left"/>
+
+            <ImageView
+                android:layout_width="1000dp"
+                android:layout_height="2dp"
+                android:src="@drawable/ssline_long"
+                android:layout_gravity="center"
+                android:background="@drawable/blank"
+                />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:id="@+id/ib_newsheet_item2"
+                android:src="@drawable/ib_newsheet_menu2"
+                android:background="@drawable/blank"
+                android:layout_gravity="left"/>
+
+            <ImageView
+                android:layout_width="1000dp"
+                android:layout_height="2dp"
+                android:src="@drawable/ssline_long"
+                android:layout_gravity="center"
+                android:background="@drawable/blank"
+                />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:id="@+id/ib_newsheet_item3"
+                android:src="@drawable/ib_newsheet_menu3"
+                android:background="@drawable/blank"
+                android:layout_gravity="left"/>
+
+            <ImageView
+                android:layout_width="1000dp"
+                android:layout_height="2dp"
+                android:src="@drawable/ssline_long"
+                android:layout_gravity="center"
+                android:background="@drawable/blank"
+                />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:id="@+id/ib_newsheet_item4"
+                android:src="@drawable/ib_newsheet_menu4"
+                android:background="@drawable/blank"
+                android:layout_gravity="left"/>
+
+            <ImageView
+                android:layout_width="1000dp"
+                android:layout_height="2dp"
+                android:src="@drawable/ssline_long"
+                android:layout_gravity="center"
+                android:background="@drawable/blank"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:src="@drawable/blank"
+                android:layout_gravity="center"
+                android:background="@drawable/blank"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

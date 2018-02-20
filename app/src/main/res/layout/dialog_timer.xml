@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_height="220dp"
+        android:orientation="vertical"
+        android:background="@drawable/blank">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="28"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:background="@drawable/blank" />
+
+            <TextView
+                android:id="@+id/dialog_tv_title"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="20"
+                android:gravity="center"
+                android:text="TIMER"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:background="@drawable/blank"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:src="@drawable/timer_vib"
+                android:background="@drawable/blank"
+                android:id="@+id/dialog_iv_alarm" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:src="@drawable/timer_under"
+                android:background="@drawable/blank"
+                android:layout_gravity="center"
+                android:id="@+id/dialog_iv_tray" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:layout_marginTop="1dp"
+            android:src="@drawable/ssline_longlong"
+            android:background="@drawable/blank"/>
+
+        <ImageView
+            android:id="@+id/dialog_iv_timer"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="50"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:src="@drawable/item_menu_timer"
+            android:background="@drawable/blank"/>
+
+        <TextView
+            android:id="@+id/dialog_timer_tv"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="15"
+            android:text="00  :  00"
+            android:gravity="center"
+            android:background="@drawable/blank"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="30"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/blank">
+
+            <Button
+                android:id="@+id/bt_left"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:text="START" />
+
+            <Button
+                android:id="@+id/bt_right"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:text="FINISH" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
